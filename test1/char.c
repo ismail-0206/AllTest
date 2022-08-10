@@ -2,12 +2,20 @@
 
 void loop(char l[]);
 
-int main(int argc, char *argv[]) {
+int main() {
+    char UnSafe[100], Safe[100];
     char i[]="Ismail ";
-    char j[]="Hossain";
+    char j[]="Hossain\n";
     loop(i);
     loop(j);
 
+//**********************************
+    printf("UnSafe format: ");
+    gets(UnSafe);
+    puts(UnSafe);
+    printf("Safe format: ");
+    fgets(Safe, 100, stdin);
+    puts(Safe);
     return 0;
 }
 
