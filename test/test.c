@@ -3,12 +3,12 @@
 
 
 int main(int argc, char *argv[]) {
-    char name[100];
+    char ban[100]={1,2,3} ;
     int i;
-    scanf("%[^\n]s", name);
+
     for (i = 1; i <= 10; i++) {
 
-        printf("%d: %s\n", i, name);
+        printf("%d: %s\n", i, ban);
     }
     return 0;
 }
