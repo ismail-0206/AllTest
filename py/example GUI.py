@@ -1,3 +1,5 @@
+from timeit import timeit
+from unicodedata import decimal
 import PySimpleGUIQt as sg
 #s.preview_all_look_and_feel_themes()
 
